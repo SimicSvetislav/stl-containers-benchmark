@@ -42,7 +42,6 @@ def main():
         plt.xticks(rotation=30)
         fig = res.get_figure()
         fig.savefig(f'./Slike/{op}.png')
-        i += 1
     
     
 def prevedi(operation):
